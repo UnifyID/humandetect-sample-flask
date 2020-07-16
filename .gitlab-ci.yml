@@ -1,0 +1,11 @@
+heroku:
+  stage: deploy
+  script:
+  - apt-get update -qy
+  - apt-get install -y ruby-dev
+  - gem install dpl
+  - apt-get -y install git -yqq
+  - apt-get -y install curl
+  - dpl --provider=heroku --app=humandetect-example-flask --api-key=$HEROKU_API_KEY
+  only:
+  - master
