@@ -36,11 +36,8 @@
 
 While running the Flask app locally might be great for trying things out, you'll have to deploy it via Heroku if you want to access it outside of your local environment.
 
-* Create a new Heroku project
-* Fork this repository, connect your GitHub account to Heroku, and deploy the forked GitHub repository
-* Set your API Key as a Config var ([this guide](https://devcenter.heroku.com/articles/config-vars) can help you):
-  * KEY: `UnifyIDAPIKey`
-  * VALUE: Your API Key
+Use button below to set up your project in Heroku. Set the "UnifyIDAPIKey" config var as the API key that you previously generated from the developer portal.
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/UnifyID/humandetect-sample-flask/tree/dev)
 
 ## C. Run test
 
