@@ -7,5 +7,13 @@
       "description": "API key obtained from the UnifyID Developer Dashboard.",
       "value": ""
     }
-  }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-apt"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
 }
