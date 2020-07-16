@@ -1,0 +1,5 @@
+{
+  "name": "HumanDetect Example (Flask app)",
+  "description": "Sample app using HumanDetect SDK to protect against bot attacks",
+  "repository": "https://github.com/UnifyID/humandetect-sample-flask"
+}
