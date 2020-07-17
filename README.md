@@ -53,4 +53,4 @@ Use button below to set up your project in Heroku. Set the "UnifyIDAPIKey" confi
 * If everything goes according to plan, the following should be printed: `cab: 87.69%, police_van: 5.23%, racer: 1.45%, sports_car: 1.33%, car_wheel: 1.23%`
 
 ## D. Next Steps
-Check out the HumanDetect Example iOS App if you want to see how HumanDetect can be implemented end-to-end, and to test the capabilities of HumanDetect in a real-world scenario.
+Check out the [HumanDetect Example iOS App](https://github.com/UnifyID/humandetect-sample-ios) if you want to see how HumanDetect can be implemented end-to-end, and to test the capabilities of HumanDetect in a real-world scenario.
