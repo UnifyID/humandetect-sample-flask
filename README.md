@@ -38,7 +38,7 @@ While running the Flask app locally might be great for trying things out, you'll
 
 Use button below to set up your project in Heroku. Set the "UnifyIDAPIKey" config var as the API key that you previously generated from the developer portal.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/UnifyID/humandetect-sample-flask/tree/dev)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/UnifyID/humandetect-sample-flask)
 
 ## C. Run test
 
