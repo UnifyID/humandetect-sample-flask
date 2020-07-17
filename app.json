@@ -1,0 +1,19 @@
+{
+  "name": "HumanDetect Example (Flask app)",
+  "description": "Sample app using HumanDetect SDK to protect against bot attacks",
+  "repository": "https://github.com/UnifyID/humandetect-sample-flask",
+  "env": {
+    "UnifyIDAPIKey": {
+      "description": "API key obtained from the UnifyID Developer Dashboard.",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-apt"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}

@@ -36,11 +36,9 @@
 
 While running the Flask app locally might be great for trying things out, you'll have to deploy it via Heroku if you want to access it outside of your local environment.
 
-* Create a new Heroku project
-* Fork this repository, connect your GitHub account to Heroku, and deploy the forked GitHub repository
-* Set your API Key as a Config var ([this guide](https://devcenter.heroku.com/articles/config-vars) can help you):
-  * KEY: `UnifyIDAPIKey`
-  * VALUE: Your API Key
+Use button below to set up your project in Heroku. Set the "UnifyIDAPIKey" config var as the API key that you previously generated from the developer portal.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/UnifyID/humandetect-sample-flask/tree/dev)
 
 ## C. Run test
 
@@ -55,4 +53,4 @@ While running the Flask app locally might be great for trying things out, you'll
 * If everything goes according to plan, the following should be printed: `cab: 87.69%, police_van: 5.23%, racer: 1.45%, sports_car: 1.33%, car_wheel: 1.23%`
 
 ## D. Next Steps
-Check out the HumanDetect Example iOS App if you want to see how HumanDetect can be implemented end-to-end, and to test the capabilities of HumanDetect in a real-world scenario.
+Check out the [HumanDetect Example iOS App](https://github.com/UnifyID/humandetect-sample-ios) if you want to see how HumanDetect can be implemented end-to-end, and to test the capabilities of HumanDetect in a real-world scenario.
